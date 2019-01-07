@@ -30,3 +30,12 @@ plt.show()
 ```
 
 You can also do the same with adjacecy matrix, presented as 2-dimesional ```numpy.array``` with same length and witdth, as currenly the implementation supports only such arrays.
+
+
+Here are three examples of a result for this code execution with changed parameters:
+1. Parameters from the sample
+![alt text](https://github.com/krivchnik/visualization_task/blob/master/sample_images/Sample_parameters.png)
+2. Same code, but gravity set to 4.0, scaling to 5.0 and strong gravity mode
+![alt text](https://github.com/krivchnik/visualization_task/blob/master/sample_images/StrongGravity4Scaling5.png)
+3. Same code, but edge weight set to 0.0, jitter tolerance to 2.0, scaling to 5.0, strong gravity mode and gravity set to 4.0.
+![alt text](https://github.com/krivchnik/visualization_task/blob/master/sample_images/EdgeWeight0Jitter2Scaling5StrongGravity4.png)
