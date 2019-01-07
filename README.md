@@ -8,6 +8,7 @@ The usage is simple. If you want to use it with ```networkx``` structures you ca
 ```python3
 import networkx as nx
 import matplotlib.pyplot as plt
+from visualizer.visualizer import ForceAtlas2
 
 G = nx.karate_club_graph()
 forceatlas2 = ForceAtlas2(
